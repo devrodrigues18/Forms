@@ -1,0 +1,90 @@
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #167D7F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      form {
+        background: #fffdfdd2;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+      }
+
+      p {
+        margin: 0 0 15px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #333;
+      }
+
+    
+
+
+      input[type="date"] {
+        width: 125px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+
+      .gender-label {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+
+      button[type="reset"] {
+        background-color: BLACK;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      button[type="reset"]:hover {
+        background-color: #5a6268;
+      }
+      .date {
+        width: 5%;
+      }
+      .mail-input{
+        width: 65%;
+      }
+      .name-input{
+        width: 65%;
+      }
+      .pass-input{
+        width: 25%;
+    
+      }
+      .cofirm-password{
+        width: 30%;
+      }
